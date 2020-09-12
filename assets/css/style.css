@@ -5,9 +5,27 @@
 body {
     width: 100vw;
     height: 100vh;
- /* background-color: #8e11bf;
-background-image: linear-gradient(45deg, #8e11bf 0%, #ac38ed 36%, #f8ff2b 80%, #ffffff 100%);*/
-
+ background-color: #8e11bf;
 background-image: linear-gradient(to top, #8e11bf 0%, #f8ff2b 100%);
+}
 
+.logo {
+    height: 20%;
+    width: 20%;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    margin: 30px;
+    margin-top: 10px;
+}
+.header {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
 }
