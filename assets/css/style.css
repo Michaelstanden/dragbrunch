@@ -29,15 +29,20 @@ background-image: linear-gradient(to top, #8e11bf 0%, #f8ff2b 100%);
     justify-content: center;
     align-items: center;
     margin: auto;
-    border: 1px solid black;
-    box-sizing: border-box;
-    background-color: rgb(17, 17, 17, .5);
+    word-spacing: 30px;
+    font-family: 'Monoton', sans-serif;
 }
 
 .neon {
-  font-family: neon;
   color: rgb(35, 13, 156);
   font-size: 9vw;
   line-height: 9vw;
   text-shadow: 0 0 3vw #F40A35;
+}
+
+.neon {
+ color: #426DFB;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
 }
