@@ -40,6 +40,24 @@ background-size:cover;
   text-shadow: 0 0 3vw #F40A35;
 }
 
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #ffffff, 0 0 1.5vw #ffffff, 0 0 5vw #ffffff, 0 0 5vw #ffffff, 0 0 .2vw #ffffff, .5vw .5vw .1vw #ffffff;
+    color: #806914;
+  }
+}
+
 .nav-bar {
     font-family: 'Cinzel', serif;
     font-size: 2em;
@@ -79,10 +97,30 @@ img {
 }
 
 .about {
-    padding: 30px;
+    padding: 50px;
     padding-top: 70px;
 }
 
 .about-image {
     border: double 3px black;
+}
+
+.neon-footer {
+ color: #f7f5fa;
+    font-size: 1.5em;
+    text-shadow: 0 0 3vw #F40A35;
+    border: 10px solid, rgba(250, 247, 247, 0.973);
+    list-style-type: none;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    padding: 50px;
+}
+
+.social {
+    color: #000000;
 }
