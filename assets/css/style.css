@@ -52,6 +52,7 @@ margin-right:20px;
 .neon2 {
      color: rgb(35, 13, 156);
   text-shadow: 0 0 3vw #F40A35;
+  font-family: 'Cinzel', serif;
 }
 
 .column {
@@ -75,4 +76,13 @@ margin-right:20px;
 
 img {
     margin:auto;
+}
+
+.about {
+    padding: 30px;
+    padding-top: 70px;
+}
+
+.about-image {
+    border: double 3px black;
 }
