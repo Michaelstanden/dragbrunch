@@ -49,7 +49,7 @@ background-size:cover;
 @keyframes neon {
   0%,
   100% {
-    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    text-shadow: 0 0 1vw rgb(35, 13, 156), 0 0 3vw rgb(92, 6, 206), 0 0 10vw rgb(92, 6, 206), 0 0 10vw rgb(92, 6, 206), 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
     color: #FED128;
   }
   50% {
@@ -129,4 +129,10 @@ img {
 .show-text {
     justify-content: center;
     align-items: center;
+}
+
+.slideshow {
+    padding: 50px;
+    margin:auto;
+    height: 50%;
 }
