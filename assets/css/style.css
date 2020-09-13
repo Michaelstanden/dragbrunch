@@ -64,7 +64,9 @@ background-size:cover;
 border: 8px double #FF08FB;
 border-radius: 18px; 
 margin-left: 20px;
-margin-right:20px;   
+margin-right:20px;
+width: fit-content;
+margin: auto;   
 }
 
 .neon2 {
@@ -180,4 +182,14 @@ img {
   font-family: 'Cinzel' , serif;
   color: rgb(35, 13, 156);
   font-size: 1.5em;
+}
+
+.ticket-text {
+     display: inline;
+  padding:20px;
+  font-family: 'Cinzel' , serif;
+  color: rgb(35, 13, 156);
+  font-size: 1.5em;
+  justify-content: center;
+  text-align: center;
 }
