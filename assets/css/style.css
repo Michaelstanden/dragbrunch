@@ -129,10 +129,57 @@ img {
 .show-text {
     justify-content: center;
     align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom:20px;
+    margin: auto;
+    font-family: 'Cinzel' , serif;
+       color: rgb(35, 13, 156);
+  text-shadow: 0 0 3vw #F40A35;
+  font-size: 1.5em;
 }
 
 .slideshow {
-    padding: 50px;
-    margin:auto;
-    height: 50%;
+    padding-top:20px;
+    padding: 30px;
 }
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+
+  .placer {
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+  }
+
+    .btn-container {
+      width: fit-content;
+      height: fit-content;
+      background: #2c0055;
+      box-shadow: 0px 0px 16px #c80de0;
+      border-radius: 2px;
+      border: 2px solid;
+      transition: all 1s ease-in-out;
+      border-image: linear-gradient(#360154, #d442d5) 30;
+    }
+      button {
+        font-family: "Cinzel", serif;
+        left: 56px;
+        font-size: 35px;
+        line-height: 70px;
+        margin: 0 auto;
+        background: -webkit-linear-gradient(#ffdc2a, #fb2182);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
