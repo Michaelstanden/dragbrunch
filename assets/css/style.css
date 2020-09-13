@@ -14,14 +14,15 @@ background-size:cover;
 }
 
 .logo {
-    height: 30%;
-    width: 30%;
+    height: 60%;
+    width: 60%;
     display: flex;
     margin: 30px;
     margin-top: 10px;
 }
 .header {
     display: flex;
+    margin-left:20%;
 }
 
 .title {
@@ -31,6 +32,7 @@ background-size:cover;
     margin: auto;
     word-spacing: 30px;
     font-family: 'Monoton', sans-serif;
+    text-align:center;
 }
 
 .neon {
@@ -59,33 +61,20 @@ background-size:cover;
 }
 
 .nav-bar {
-    font-family: 'Cinzel', serif;
-    font-size: 2em;
+font-family: 'Cinzel', serif;
+font-size: 2em;
 border: 8px double #FF08FB;
 border-radius: 18px; 
 margin-left: 20px;
 margin-right:20px;
 width: fit-content;
-margin: auto;   
+margin: auto; 
 }
 
 .neon2 {
      color: rgb(35, 13, 156);
   text-shadow: 0 0 3vw #F40A35;
   font-family: 'Cinzel', serif;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px; 
-}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .image-container {
@@ -169,11 +158,11 @@ img {
 
 .slideshow {
     margin:30px;
-    margin-left: 50px;
     padding:30px;
     clear: both;
     column-count: 2;
     border: double 8px #FF08FB;
+    width: fit-content;
 }
 
 .about-text {
@@ -193,3 +182,4 @@ img {
   justify-content: center;
   text-align: center;
 }
+
