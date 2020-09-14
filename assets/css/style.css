@@ -67,7 +67,7 @@ border-radius: 18px;
 margin-left: 20px;
 margin-right:20px;
 width: fit-content;
-margin: auto; 
+margin: auto;
 }
 
 .neon2 {
@@ -92,7 +92,12 @@ img {
 }
 
 .about-image {
-    border: double 8px #FF08FB;;
+    border: double 8px #FF08FB;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    display: flex;
 }
 
 .neon-footer {
@@ -191,3 +196,8 @@ a {
    color: rgb(35, 13, 156);
   text-shadow: 0 0 3vw #F40A35;
 }
+
+.padding-image {
+    padding-top: 30px;
+}
+
